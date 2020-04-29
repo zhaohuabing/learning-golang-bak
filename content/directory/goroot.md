@@ -7,7 +7,7 @@ Linux下GOROOT的缺省目录为 /usr/local/go/，其目录结构如下所示。
 │   ├── go
 │   ├── godoc
 │   └── gofmt                            
-├── pkg                            //go语言自带的基础包，如io，net，math等。
+├── pkg                            //go标准库的package二进制包，如io，net，math等。
 │   ├── include
 │   ├── linux_amd64
 │   │   ├── archive
@@ -19,7 +19,7 @@ Linux下GOROOT的缺省目录为 /usr/local/go/，其目录结构如下所示。
 │   │   │   ├── bzip2.a
 │   │   │   └── ......
 │   └── tool
-├── src                           //go语言自带的基础包的源文件，如io，net，math等。
+├── src                           //go标准库源文件，如io，net，math等。
 │   ├── archive
 │   │   ├── tar
 │   │   │   ├── common.go
